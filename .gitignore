@@ -1,0 +1,48 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/hot
+/.idea
+/.vscode
+/.env
+/.env.*
+/.phpunit.result.cache
+/storage/*.key
+/storage/framework/cache/data
+/storage/logs
+/storage/debugbar
+/.sass-cache
+/.grunt-cache
+/.cache
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.php_cs.cache
+Homestead.yaml
+Homestead.json
+.vagrant
+
+# Composer
+composer.lock
+
+# IDE
+*.iml
+
+# npm
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+
+# Build
+public/storage
+
+# Ignore portofolio-main vendor too (if present inside subfolder)
+/portofolio-main/vendor/
+
+# Ignore node build artifacts
+/public/build
